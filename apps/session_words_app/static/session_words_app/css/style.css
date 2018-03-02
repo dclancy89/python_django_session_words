@@ -1,0 +1,57 @@
+body {
+	font-family: Helvetica;
+}
+
+#pagewrap {
+	max-width: 75rem;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 3rem;
+	display: table;
+}
+
+.button {
+	display: table;
+	background-color: purple;
+	color: white;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 6px 12px;
+	font-size: 14px;
+	margin: 0.5rem;
+}
+
+.col-1-2 {
+	display: table-cell;
+	width: 50%;
+	padding: 0.5rem;
+}
+
+.col-1-2:first-child {
+	border-right: 5px solid purple;
+}
+
+form label {
+	display: block;
+}
+
+.words p {
+	margin: 10px;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.blue {
+	color: blue;
+}
+
+.big {
+	font-size: 25px;
+}
